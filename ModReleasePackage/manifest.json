@@ -1,0 +1,11 @@
+﻿{
+	"name": "ExaggeratedVoidDeaths",
+	"version_number": "1.0.0",
+	"website_url": "",
+	"description": "Applies the Lost Seer's Lenses kill effect to all void deaths.",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.9",
+		"RiskofThunder-HookGenPatcher-1.2.1",
+		"RiskofThunder-R2API_DamageType-1.0.3",
+	]
+}
