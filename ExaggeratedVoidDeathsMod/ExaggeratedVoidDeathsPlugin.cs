@@ -44,6 +44,7 @@ namespace ExaggeratedVoidDeathsMod {
 
 		private static void SetLastDamageWasVoidDeath() {
 			_lastDamageWasVoidDeathFromLenses = true;
+			// This technique is, quite frankly, pretty horrifying. It wouldn't work in a multithreaded environment either.
 		}
 
 		private void AfterTakingDamage(On.RoR2.HealthComponent.orig_TakeDamage originalMethod, HealthComponent @this, DamageInfo damageInfo) {
